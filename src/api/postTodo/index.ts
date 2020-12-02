@@ -5,7 +5,7 @@ export const postTodo = async (data: TodoBody): Promise<void> => {
   try {
     await axios({
       method: "POST",
-      url: "http://localhost:8080/api/todo",
+      url: "http://localhost:8080/api/add-todo",
       data, // = data : data
     });
   } catch (error) {

@@ -17,5 +17,5 @@ export interface GetTodoResult {
 
 export interface TodoBody {
   title: string;
-  status: "completed" | "uncompleted";
+  status?: "completed" | "uncompleted";
 }

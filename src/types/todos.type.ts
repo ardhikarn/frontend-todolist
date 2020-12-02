@@ -10,3 +10,7 @@ interface Todo {
   updatedAt: string;
   __v: number;
 }
+
+export interface GetTodoResult {
+  result: Todo;
+}

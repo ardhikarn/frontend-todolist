@@ -14,3 +14,8 @@ interface Todo {
 export interface GetTodoResult {
   result: Todo;
 }
+
+export interface TodoBody {
+  title: string;
+  status: "completed" | "uncompleted";
+}
